@@ -26,12 +26,15 @@ Inside of `config.json` You must change `TOKEN` to your Bot Token.
 > Prefix is `!`
 
 > Play Songs from Youtube. Supports Playlist and URL.
+
 `!play <song name>`
 
 > Skip Songs
+
 `!skip`
 
 > SkipTo from a song in the queue. Such as skipTo 2 songs in queue.
+
 `!skipTo <number>`
 
 > Stop Queue will result in clearing queue and disconnecting.
@@ -39,7 +42,9 @@ Inside of `config.json` You must change `TOKEN` to your Bot Token.
 `!stop`
 
 > Loop Queue
+
 `!loop`
 
 > NowPlaying
+
 `!np or !nowplaying will return current song and duration.`
