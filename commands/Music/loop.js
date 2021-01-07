@@ -2,7 +2,6 @@ module.exports = ({
     name: "loop",
     code: `
     $author[Music Loop]
-    $stopSong
     $description[<@$authorID> has $replaceText[$replaceText[$checkCondition[$loopQueue==true];true;enabled loop];false;disabled loop]]
     $color[GREEN]
     $footer[Requested by $userTag[$authorID]]
